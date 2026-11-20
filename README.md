@@ -43,3 +43,8 @@ for now.
 
 The `pkg init / check / pack / publish` commands that write the line and open the PR are not built yet. Until they
 are, a line is written by hand.
+
+## License
+
+The index (`config.json`, the package files and their lines) is under the [Apache License 2.0](LICENSE). A line's
+`license` field names the license of that package's own files, which stay in the package's repository.
